@@ -26,6 +26,7 @@ buildscript {
 apply plugin: 'scala'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
+apply plugin: 'maven'
 apply plugin: 'vertx'
 
 defaultTasks = ['assemble']
